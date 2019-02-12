@@ -10,6 +10,8 @@ class FieldResolver {
         $fn = $resolver($info->parentType->name, $name);
         if (is_callable($fn)) {
             $value = call_user_func_array($fn, array($value, $args, $ctx, $info));
+        } else {
+            $value = $value[$name];
         }
 
         return $value;
