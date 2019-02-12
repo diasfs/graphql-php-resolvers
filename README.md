@@ -1,6 +1,9 @@
 # GraphQL Resolvers
+
 [![License](https://poser.pugx.org/ecodev/graphql-upload/license.png)](https://packagist.org/packages/diasfs/graphql-php-resolvers)
+
 Simplified resolvers for [webonyx/graphql-php](https://github.com/webonyx/graphql-php).
+
 ## Quick start
 
 Install the library via composer:
